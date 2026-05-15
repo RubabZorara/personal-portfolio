@@ -1,0 +1,9 @@
+This repository contains my personal portfolio website, developed to showcase my skills, projects, and experience as a Computer Science student. The website is designed with a modern, clean, and responsive user interface to provide a smooth and engaging user experience across different devices.
+
+The main purpose of this portfolio is to highlight my journey in the field of technology, especially in web development and artificial intelligence. It serves as a central platform where visitors can explore my technical skills, view my academic and personal projects, and learn more about my background and interests. The design focuses on simplicity, clarity, and usability, ensuring that information is easy to navigate and visually appealing.
+
+The portfolio includes multiple sections such as an introduction, about me, skills, services, projects, and contact information. Each section is carefully structured to present relevant information in a professional manner. The projects section demonstrates my practical work, including a Home Inventory Management System and other web-based projects, reflecting my ability to apply programming concepts in real-world scenarios.
+
+This project is built using fundamental web technologies including HTML, CSS, and JavaScript. These technologies are used to create a responsive layout, interactive elements, and a visually consistent design. The goal was to strengthen my frontend development skills while also understanding how to structure and present content effectively.
+
+Overall, this portfolio represents my continuous learning and growth as a developer. It not only showcases my current abilities but also reflects my commitment to improving my technical and problem-solving skills. This repository will be regularly updated with new features, improvements, and projects as I continue to expand my knowledge and gain more experience in the field of software development and emerging technologies.
