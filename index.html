@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/405efe5e53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- navigation -->
+    <div id="header">
+    <div class="container">
+            <nav> 
+                 <h1 class="logo">Rubab.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="close fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="menu fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Rubab Zorara</span></h1> 
+            <p>Building simple and practical solutions with code.
+         <br><br>
+         Web Development | C++ | DSA | SQL 
+           </p>    
+        </div>
+    </div>
+    </div>
+
+     <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">  
+                  <img src="images/profile.png" >
+                </div>
+                    <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I am a 3rd year BS Computer Science student with a strong interest in web development and Artificial Intelligence.
+                            I have worked on academic and personal projects, including a Home Inventory Management System, and have experience building responsive websites using HTML, CSS, and JavaScript.
+                            Currently, I am gaining practical experience through internships and continuously improving my technical and problem-solving skills by exploring modern technologies.
+                            I am always eager to learn new technologies and grow as a developer.</p> 
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Development</span><br> Building responsive and user-friendly websites</li>
+                                    <li><span>Application Development</span><br> Building desktop and mobile applications</li>
+                                    <li><span>Programming</span><br> Strong foundation in programming concepts with experience in C++ and problem solving</li>
+                                    <li><span>Problem Solving</span><br> Applying logical thinking and algorithmic approaches to solve programming challenges</li>
+                                    <li><span>SQL & Databases</span><br> Understanding of basic database concepts and writing simple SQL queries</li>
+                                    <li><span>Productivity Tools</span><br> Skilled in using MS Office and Canva for documentation and design tasks.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2023-2027</span><br> BS Computer Science </li>
+                                    <li><span>2021-2023</span><br> Intermediate of computer science </li>
+                                    <li><span>2019-2021</span><br> Matric in Computer Science </li>   
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>    
+                                    <li><span>2026</span><br> DevelopeHub Internship — Full Stack Web Development </li>
+                                    <li><span>2026</span><br> Arch Technologies Internship — Generative AI </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+             </div> 
+    </div> 
+
+      <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bezier-curve"></i></i>
+                    <h2>Graphic Design</h2>
+                    <p>Creating simple and visually appealing designs using Canva for presentations, posts, and basic branding.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-diagram"></i>
+                    <h2>AI & Problem Solving</h2>
+                    <p>Exploring Artificial Intelligence tools and applying logical thinking to solve real-world problems efficiently.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+ <!-- portfolio   -->
+        <div id="portfolio">
+            <div class="container">
+              <h1 class="sub-title"> My Work</h1>
+               <div class="work-list">
+                               <div class="work">
+                                  <img src="images/work1.png">
+                                 <div class="layer">   
+                                     <h3>Portfolio Website</h3>
+                                      <p>A personal portfolio website built using HTML and CSS to showcase my skills, projects, and learning journey. It features a clean and responsive design.</p>
+                                      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                  </div>
+                               </div>
+                             <div class="work">
+                                 <img src="images/work2.png">
+                                 <div class="layer">   
+                                     <h3>Home Inventory Management System</h3>
+                                      <p>A C++ based project that manages household items, categories, and records with a focus on real-world problem solving.</p>
+                                      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                  </div>
+                             </div>
+                                  <div class="work">
+                                     <img src="images/work3.png">
+                                        <div class="layer">   
+                                            <h3>Data Structures Practice</h3>
+                                            <p>A collection of solved problems using basic Data Structures to improve logical thinking and coding skills.</p>
+                                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                       </div>
+                                  </div>
+                 </div>
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         
+<!-- contact -->
+  <div id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1>
+         <p><i class="fa-solid fa-envelope"></i><span> rubab.zorara01@gmail.com</span></p>
+         <p><i class="fa-solid fa-phone"></i><span> +923279500222</span></p>
+       </div>
+       <div class="contact-right">
+        <form name="YOUR_FORM_NAME">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+       </div>
+     </div>
+   </div>
+   <div class="copyright">
+    <p>Copyright @ Rubab Zorara</p>
+   </div>
+  </div>  
+ <script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   } 
+ </script>
+ <script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+ </script>
+ <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzGBlY1bYdu8fyFFvSE0ko2_Gd0tAVnFn2kU4tG7EEMm8NFK0cgSJRNZ9YsBYWhyWx2gQ/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+    const msg = document.getElementById("msg")
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html> 
